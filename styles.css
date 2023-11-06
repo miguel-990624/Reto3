@@ -1,0 +1,54 @@
+.disabled{
+    display: none;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2,h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column  ;
+}
+
+section{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section button{
+    flex: 1;
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+section img{
+    height: 35rem;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 5rem;
+}
+
+footer button{
+    flex: 1;
+    margin: 1rem;
+    font-size: 3rem;
+}
